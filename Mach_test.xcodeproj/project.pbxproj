@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		0D9E61A2252084F20003FCB3 /* Mach_test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mach_test; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D9E61A5252084F20003FCB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D9E61AD25208E6A0003FCB3 /* exc.defs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.mig; path = exc.defs; sourceTree = "<group>"; };
+		0D9E61AF25208ECA0003FCB3 /* mach_excServer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_excServer.c; sourceTree = "<group>"; };
+		0D9E61B025208ECA0003FCB3 /* mach_excUser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mach_excUser.c; sourceTree = "<group>"; };
+		0D9E61B125208ECA0003FCB3 /* mach_exc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mach_exc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,11 @@
 		0D9E61A4252084F20003FCB3 /* Mach_test */ = {
 			isa = PBXGroup;
 			children = (
+				0D9E61B125208ECA0003FCB3 /* mach_exc.h */,
+				0D9E61AF25208ECA0003FCB3 /* mach_excServer.c */,
+				0D9E61B025208ECA0003FCB3 /* mach_excUser.c */,
 				0D9E61A5252084F20003FCB3 /* main.m */,
+				0D9E61AD25208E6A0003FCB3 /* exc.defs */,
 			);
 			path = Mach_test;
 			sourceTree = "<group>";
